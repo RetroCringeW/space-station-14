@@ -20,7 +20,7 @@ public sealed partial class AgeRequirement : JobRequirement
 
     //SS220-JobsAgeIPC begin
     [DataField]
-    public HashSet<ProtoId<SpeciesPrototype>> AgeCheckIgnore = [];
+    public HashSet<ProtoId<SpeciesPrototype>> IgnoreSpecies = [];
     //SS220-JobsAgeIPC end
 
     public override bool Check(IEntityManager entManager,
@@ -35,7 +35,7 @@ public sealed partial class AgeRequirement : JobRequirement
             return true;
 
         //SS220-JobsAgeIPC begin
-        if (AgeCheckIgnore.Contains(profile.Species))
+        if (IgnoreSpecies.Contains(profile.Species))
             return true;
         //SS220-JobsAgeIPC end
 
