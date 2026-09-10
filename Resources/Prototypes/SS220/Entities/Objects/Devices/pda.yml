@@ -695,7 +695,7 @@
   parent: SalvagePDA
   id: SalvagePDAJR
   name: salvager JR PDA
-  description: A special PPDA for Junk Recyclers recycler.
+  description: A special PDA for Junk Recyclers recycler.
   suffix: For playtime
   components:
   - type: Appearance

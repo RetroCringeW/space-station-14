@@ -17,5 +17,5 @@ ent-RedWingsPilotPDA = КПК пилота "Красных крыльев"
 ent-JanitorJRPDA = КПК уборщика JR
     .desc = Специальный КПК для уборщиков компании Junk Recyclers.
 ent-SalvagePDAJR = КПК утилизатора JR
-    .desc = Специальный КПК для утилизаторов компании Junk Recyclers
+    .desc = Специальный КПК для утилизаторов компании Junk Recyclers.
     .suffix = { ent-AltRnDDirPDA.suffix }
