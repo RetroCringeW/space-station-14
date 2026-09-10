@@ -1021,6 +1021,7 @@
   minLimit: 0
   loadouts:
   - SalvageSpecialistWintercoat
+  - ClothingOuterCoatJRSalvageTrench #SS220-JRNewThings
 
 - type: loadoutGroup
   id: SalvageSpecialistShoes

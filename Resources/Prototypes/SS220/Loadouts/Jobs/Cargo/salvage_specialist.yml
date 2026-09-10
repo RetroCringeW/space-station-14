@@ -79,6 +79,15 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitJRSalvage
 
+# OuterClothing
+- type: loadout
+  id: ClothingOuterCoatJRSalvageTrench
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: UniformExpeditor
+  equipment:
+    outerClothing: ClothingOuterCoatJRSalvageTrench
+
 # Shoes
 - type: loadout
   id: ClothingShoesBootsJRSalvage

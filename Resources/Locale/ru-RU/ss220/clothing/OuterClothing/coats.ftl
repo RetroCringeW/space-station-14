@@ -52,3 +52,6 @@ ent-ClothingOuterCoatNTRTrench = тренчкот представителя Н�
 
 ent-ClothingOuterCoatJanitorJRBomber = бомбер уборщика JR
     .desc = Влагостойкая куртка-бомбер, разработанная для специалистов JR.
+ent-ClothingOuterCoatJRSalvageTrench = плащ утилизатора JR
+    .desc = Износостойкий и стильный тренч, защищающий в том числе от мелкодисперсной пыли.
+    .suffix = { ent-ClothingOuterCoatDeadAnarchist.suffix }
