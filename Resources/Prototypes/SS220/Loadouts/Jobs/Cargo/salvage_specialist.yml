@@ -102,6 +102,14 @@
   equipment:
     outerClothing: ClothingOuterCoatJRSalvageTrench
 
+- type: loadout
+  id: ClothingOuterWinterJRSalvage
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SalvageJR
+  equipment:
+    outerClothing: ClothingOuterWinterJanitorJR
+
 # Belt
 - type: loadout
   id: OreBagJRSalvage
@@ -174,6 +182,14 @@
   id: ClothingHeadHatHardhatViolet
   equipment:
     head: ClothingHeadHatHardhatViolet
+
+- type: loadout
+  id: ClothingHeadHatHardhatJRSalvage
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SalvageJR
+  equipment:
+    head: ClothingHeadHatHardhatJanitorJR
 
 - type: loadout
   id: ClothingHeadBeretSalvageSpecialist
