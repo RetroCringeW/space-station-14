@@ -785,6 +785,7 @@
   - SalvageSpecialistJumpsuitTurtleneck
   - UniformJumpsuitFlannelSalvage
   - ClothingUniformJumpsuitExpeditor
+  - ClothingUniformJumpsuitJRSalvage
 
 - type: loadoutGroup
   id: SalvageSpecialistHead

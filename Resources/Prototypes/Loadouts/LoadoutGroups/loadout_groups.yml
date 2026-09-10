@@ -1028,6 +1028,7 @@
   loadouts:
   - SalvageBoots
   - CargoWinterBoots
+  - ClothingShoesBootsJRSalvage #SS220-JRNewThings
 
 #- type: loadoutGroup
 #  id: SalvageSpecialistJobTrinkets

@@ -71,6 +71,23 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitExpeditor
 
+- type: loadout
+  id: ClothingUniformJumpsuitJRSalvage
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: UniformExpeditor
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJRSalvage
+
+# Shoes
+- type: loadout
+  id: ClothingShoesBootsJRSalvage
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: UniformExpeditor
+  equipment:
+    shoes: ClothingShoesBootsJRSalvage
+
 # Head
 - type: loadout
   id: ClothingHeadHatSalvage
