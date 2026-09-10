@@ -41,6 +41,20 @@
   - !type:GroupLoadoutEffect
     proto: AdministratorSponsorTier
 
+- type: loadoutEffectGroup
+  id: SalvageJR
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobSalvageSpecialist
+      time: 75h
+  sponsorTierLoadoutEffects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorDevTeamTier
+  - !type:GroupLoadoutEffect
+    proto: AdministratorSponsorTier
+
 # Jumpsuit
 - type: loadout
   id: UniformJumpsuitSalvageSpecialist
@@ -75,7 +89,7 @@
   id: ClothingUniformJumpsuitJRSalvage
   effects:
   - !type:GroupLoadoutEffect
-    proto: UniformExpeditor
+    proto: SalvageJR
   equipment:
     jumpsuit: ClothingUniformJumpsuitJRSalvage
 
@@ -84,7 +98,7 @@
   id: ClothingOuterCoatJRSalvageTrench
   effects:
   - !type:GroupLoadoutEffect
-    proto: UniformExpeditor
+    proto: SalvageJR
   equipment:
     outerClothing: ClothingOuterCoatJRSalvageTrench
 
@@ -93,7 +107,7 @@
   id: OreBagJRSalvage
   effects:
   - !type:GroupLoadoutEffect
-    proto: UniformExpeditor
+    proto: SalvageJR
   equipment:
     belt: OreBagJRSalvage
 
@@ -107,7 +121,7 @@
   id: SalvageSpecialistPDAJR
   effects:
   - !type:GroupLoadoutEffect
-    proto: UniformExpeditor
+    proto: SalvageJR
   equipment:
     id: SalvagePDAJR
 
@@ -116,7 +130,7 @@
   id: ClothingShoesBootsJRSalvage
   effects:
   - !type:GroupLoadoutEffect
-    proto: UniformExpeditor
+    proto: SalvageJR
   equipment:
     shoes: ClothingShoesBootsJRSalvage
 
@@ -148,7 +162,7 @@
   id: ClothingHeadBeretJRSalvage
   effects:
   - !type:GroupLoadoutEffect
-    proto: UniformExpeditor
+    proto: SalvageJR
   equipment:
     head: ClothingHeadBeretJRSalvage
 
