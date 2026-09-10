@@ -15,4 +15,4 @@ ent-RedWingsMedicPDA = КПК медика "Красных крыльев"
 ent-RedWingsPilotPDA = КПК пилота "Красных крыльев"
     .desc = Слот для картриджа сильно изношен
 ent-JanitorJRPDA = КПК уборщика JR
-    .desc = Специальный КПК для уборщика компании JR.
+    .desc = Специальный КПК для уборщиков компании Junk Recyclers.
