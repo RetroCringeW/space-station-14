@@ -88,6 +88,15 @@
   equipment:
     outerClothing: ClothingOuterCoatJRSalvageTrench
 
+# Belt
+- type: loadout
+  id: OreBagJRSalvage
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: UniformExpeditor
+  equipment:
+    belt: OreBagJRSalvage
+
 # Shoes
 - type: loadout
   id: ClothingShoesBootsJRSalvage

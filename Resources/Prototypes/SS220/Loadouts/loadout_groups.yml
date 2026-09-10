@@ -797,6 +797,13 @@
   - ClothingHeadHatHardhatViolet
   - ClothingHeadBeretSalvageSpecialist
   - ClothingHeadBeretJRSalvage
+
+- type: loadoutGroup
+  id: SalvageSpecialistBelt
+  name: loadout-group-salvage-specialist-belt
+  minLimit: 0
+  loadouts:
+  - OreBagJRSalvage
   # Утилизатор (Конец)
 #! Отдел снабжения (Конец)
 
