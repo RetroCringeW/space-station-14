@@ -1014,6 +1014,11 @@
   - SalvageSpecialistBackpack
   - SalvageSpecialistSatchel
   - SalvageSpecialistDuffel
+  #SS220-JRNewThings begin
+  - ClothingBackpackJRSalvage
+  - ClothingBackpackJRSalvageSatchel
+  - ClothingBackpackJRSalvageDuffel
+  #SS220-JRNewThings end
 
 - type: loadoutGroup
   id: SalvageSpecialistOuterClothing

@@ -111,6 +111,31 @@
   equipment:
     belt: OreBagJRSalvage
 
+# Back
+- type: loadout
+  id: ClothingBackpackJRSalvage
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SalvageJR
+  equipment:
+    back: ClothingBackpackJanitorJR
+
+- type: loadout
+  id: ClothingBackpackJRSalvageSatchel
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SalvageJR
+  equipment:
+    back: ClothingBackpackJanitorJRSatchel
+
+- type: loadout
+  id: ClothingBackpackJRSalvageDuffel
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SalvageJR
+  equipment:
+    back: ClothingBackpackJanitorJRDuffel
+
 # ID
 - type: loadout
   id: SalvageSpecialistPDA
