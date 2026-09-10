@@ -804,6 +804,13 @@
   minLimit: 0
   loadouts:
   - OreBagJRSalvage
+
+- type: loadoutGroup
+  id: SalvageSpecialistID
+  name: loadout-group-salvage-specialist-id
+  loadouts:
+  - SalvageSpecialistPDA
+  - SalvageSpecialistPDAJR
   # Утилизатор (Конец)
 #! Отдел снабжения (Конец)
 

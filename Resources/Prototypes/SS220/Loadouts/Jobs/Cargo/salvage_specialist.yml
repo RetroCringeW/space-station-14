@@ -97,6 +97,20 @@
   equipment:
     belt: OreBagJRSalvage
 
+# ID
+- type: loadout
+  id: SalvageSpecialistPDA
+  equipment:
+    id: SalvagePDA
+
+- type: loadout
+  id: SalvageSpecialistPDAJR
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: UniformExpeditor
+  equipment:
+    id: SalvagePDAJR
+
 # Shoes
 - type: loadout
   id: ClothingShoesBootsJRSalvage
