@@ -307,6 +307,7 @@
   id: ClothingOuterCoatJRSalvageTrench
   name: salvager jr trench
   description: A durable and stylish trench coat that also protects against fine dust.
+  suffix: For playtime
   components:
   - type: Sprite
     sprite: SS220/Clothing/OuterClothing/Coats/jr_salvage_trench.rsi
