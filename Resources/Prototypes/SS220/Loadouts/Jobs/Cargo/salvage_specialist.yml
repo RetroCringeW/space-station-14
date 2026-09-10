@@ -111,3 +111,12 @@
     proto: UniformExpeditor
   equipment:
     head: ClothingHeadBeretSalvageSpecialist
+
+- type: loadout
+  id: ClothingHeadBeretJRSalvage
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: UniformExpeditor
+  equipment:
+    head: ClothingHeadBeretJRSalvage
+
